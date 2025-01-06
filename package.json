@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "node --max-old-space-size=4096 ./node_modules/.bin/cypress run --browser chrome"
+  }
+}
